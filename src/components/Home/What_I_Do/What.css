@@ -1,0 +1,107 @@
+.what{
+    /* i want to show the text side by side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.what-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.what-right{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.web-development{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.web-development-left{
+    align-items: left;
+}
+.web-development-left p{
+    color: #333;
+    font-size: 1.1rem;
+    align-items: left;
+    justify-content: left;
+}
+/* i want the text in p tag to alin in left */
+
+.what-right h2{
+    color: #333;
+    font-size: 1.5rem;
+}
+.Data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Data-right{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.CP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Data-right p{
+    color: #333;
+    font-size: 1.1rem;
+    align-items: left;
+    justify-content: left;
+}
+.Data-right h2{
+    color: #333;
+    font-size: 1.5rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ico img{
+    padding : 10px;
+    border-radius: 20px;
+}
+.ico img:hover{
+    background-color: greenyellow;
+}

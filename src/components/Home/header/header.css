@@ -1,0 +1,38 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 20px;
+
+   
+}
+.header-left{
+
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    gap: 10px;
+}
+.header-right a{
+    text-decoration: none;
+    color: black ;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial;
+
+}
+.header-right div{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.header-right div:hover {
+    background-color: grey;
+    font-color: black;
+}

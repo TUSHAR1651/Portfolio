@@ -1,0 +1,54 @@
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+
+    padding: 10px;
+}
+
+.introduction div {
+    width: 80%; 
+}
+.introduction-left{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.introduction-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+.introduction-left h1 {
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 700;
+}
+.introduction-left p {
+    font-size: 20px;
+    font-family: 'Edu TAS', sans-serif;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Edu TAS';
+    /* src: url('../fonts/edutas.woff2') format('woff2'), */
+         /* url('../fonts/edutas.woff') format('woff'); */
+  }
+  
+@keyframes wave {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(20deg); }
+  }
+  
+  .handshake {
+    display: inline-block;
+    font-size: 2em; /* Adjust size as needed */
+    animation: wave 0.75s linear infinite;
+}
