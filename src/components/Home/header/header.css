@@ -36,3 +36,18 @@
     background-color: grey;
     font-color: black;
 }
+.header-right div::after {
+    content : "";
+    display : block;
+    height : 2px;
+    width : 0;
+    background : white;
+    transition: width 0.3s ease-in-out;
+}
+
+.header-right div:hover{
+    color: white;
+}
+.header-right div:hover::after {
+    width: 100%;
+}
