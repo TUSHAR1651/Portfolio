@@ -13,7 +13,7 @@ const Header = () => {
     const educationRef = useRef(null);
     const skillsRef = useRef(null);
     const projectsRef = useRef(null);
-    const contactRef = useRef(null);
+
 
     const scrollToSection = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -31,7 +31,6 @@ const Header = () => {
                     <div><a href="#" onClick={() => scrollToSection(educationRef)}>Education</a></div>
                     <div><a href="#" onClick={() => scrollToSection(skillsRef)}>Skills</a></div>
                     <div><a href="#" onClick={() => scrollToSection(projectsRef)}>Projects</a></div>
-                    <div><a href="#" onClick={() => scrollToSection(contactRef)}>Contact Me</a></div>
                 </div>
             </div>
 
@@ -39,7 +38,7 @@ const Header = () => {
                 <Introduction />
             </div>
             <div ref={whatRef}>
-            <What />
+                <What />
             </div>
             <div ref={educationRef} >
                 <Education />
@@ -49,8 +48,6 @@ const Header = () => {
             </div>
             <div ref={projectsRef} >
                 <Projects />
-            </div>
-            <div ref={contactRef}>
             </div>
         </>
     );
