@@ -1,13 +1,8 @@
 .icon {
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-    filter: brightness(100%);
-    
-
   }
   
   .icon:hover {
-    transform: scale(1.3); /* Zooms the logo */
-    filter: brightness(30%); /* Changes the mode to night mode */
-    /* background-color: whitesmoke; */
+    transform: scale(1.3); 
   }
 

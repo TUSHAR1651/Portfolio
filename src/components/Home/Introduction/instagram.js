@@ -3,7 +3,7 @@ import './icon.css';
 const SvgIcon2 = () => (
     <div className="large">
     <div className="icon">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/" target="_blank" >
     <svg 
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 448 512" 

@@ -33,8 +33,7 @@
     cursor: pointer;
 }
 .header-right div:hover {
-    background-color: grey;
-    font-color: black;
+    background-color: rgb(52, 167, 202);
 }
 .header-right div::after {
     content : "";
@@ -45,9 +44,7 @@
     transition: width 0.3s ease-in-out;
 }
 
-.header-right div:hover{
-    color: white;
-}
+
 .header-right div:hover::after {
     width: 100%;
 }
