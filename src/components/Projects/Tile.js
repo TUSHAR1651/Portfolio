@@ -4,6 +4,7 @@ import java from './wp7250277 (1).webp';
 const Tile = () => {
     return (
         <div className="row_Section1">
+            <div className='primary'>
             <div className="col-sm-6">
                 <a className="Project-box" target="_top" href="https://github.com/arthurW1935/car-rental-backend">
                     <div className="card boxx">
@@ -33,7 +34,35 @@ const Tile = () => {
                     </div>
                 </a>
             </div>
+            </div>
+            <div className= "secondary">
+            <div className="col-sm-6">
+                <a className="Project-box" target="_top" href="https://github.com/TUSHAR1651/Portfolio">
+                    <div className="card boxx">
+                        <div className="card-body">
+                            <h3 className="card-title">Portfolio</h3>
+                            <p className="card-text project-text">
+                               This is my portfolio website where I have used react for the frontend and bootstrap for the styling.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div className="col-sm-6">
+                <a className="Project-box" target="_top" href="https://github.com/TUSHAR1651/QuizApp">
+                    <div className="card boxx">
+                        <div className="card-body">
+                            <h3 className="card-title">QuizApp</h3>
+                            <p className="card-text project-text">
+                                This is the quiz app where you can add, delete, update questions and also play the quiz.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </div>
         </div>
+        
     );
 };
 

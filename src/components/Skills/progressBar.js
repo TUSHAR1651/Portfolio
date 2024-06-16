@@ -33,4 +33,4 @@ const Progress_bar = ({bgcolor,progress,height}) => {
     )
 }
  
-export default Progress_bar;
+// export default Progress_bar;
